@@ -2,6 +2,8 @@
   "item.poop.poop": "Poop",
   "block.poop.poop_block": "Block of Poop",
 
+  "effect.poop.diarrhea": "Diarrhea",
+
   "itemgroup.poop.poop_blocks": "Poop Blocks",
   "itemgroup.poop.poop_items": "Poop Items"
 }
