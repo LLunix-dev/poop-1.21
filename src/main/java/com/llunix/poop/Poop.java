@@ -2,6 +2,7 @@ package com.llunix.poop;
 
 import com.llunix.poop.block.ModBlocks;
 import com.llunix.poop.effect.ModEffects;
+import com.llunix.poop.event.ModEvents;
 import com.llunix.poop.item.ModItemGroups;
 import com.llunix.poop.item.ModItems;
 import net.fabricmc.api.ModInitializer;
@@ -19,5 +20,6 @@ public class Poop implements ModInitializer {
         ModItems.registerModItems();
         ModBlocks.registerModBlocks();
         ModEffects.registerEffects();
+        ModEvents.registerModEvents();
 	}
 }
