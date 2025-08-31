@@ -1,6 +1,7 @@
 package com.llunix.poop.block;
 
 import com.llunix.poop.Poop;
+import com.llunix.poop.block.custom.PileBlock;
 import net.fabricmc.fabric.api.itemgroup.v1.ItemGroupEvents;
 import net.minecraft.block.AbstractBlock;
 import net.minecraft.block.Block;
@@ -16,6 +17,7 @@ public class ModBlocks {
 
     public static final Block POOP_BLOCK = registerBlock("poop_block", new Block(AbstractBlock.Settings.create().strength(1f)
             .requiresTool().sounds(BlockSoundGroup.MUD)));
+    public static final Block PILE = registerBlock("pile", new PileBlock(AbstractBlock.Settings.create().nonOpaque()));
 
     private static Block registerBlock(String name, Block block) {
         registerBlockItem(name, block);
@@ -32,6 +34,7 @@ public class ModBlocks {
 
         ItemGroupEvents.modifyEntriesEvent(ItemGroups.BUILDING_BLOCKS).register(entries -> {
             entries.add(POOP_BLOCK);
+            entries.add(PILE);
         });
     }
 }
