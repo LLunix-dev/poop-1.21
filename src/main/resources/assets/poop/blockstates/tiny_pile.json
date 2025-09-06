@@ -1,7 +1,7 @@
 {
   "variants": {
     "": {
-      "model": "poop:block/poop_block"
+      "model": "poop:block/tiny_pile"
     }
   }
 }

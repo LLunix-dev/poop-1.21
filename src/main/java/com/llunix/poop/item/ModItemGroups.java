@@ -24,6 +24,9 @@ public class ModItemGroups {
                     .displayName(Text.translatable("itemgroup.poop.poop_blocks"))
                     .entries((displayContext, entries) -> {
                         entries.add(ModBlocks.POOP_BLOCK);
+                        entries.add(ModBlocks.PILE);
+                        entries.add(ModBlocks.TINY_PILE);
+
                     }).build());
     public static void registerItemGroups() {
         Poop.LOGGER.info("Registering Item Groups for " + Poop.MOD_ID);
