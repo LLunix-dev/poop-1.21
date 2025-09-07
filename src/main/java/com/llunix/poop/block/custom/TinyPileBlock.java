@@ -10,7 +10,7 @@ import net.minecraft.world.BlockView;
 
 public class TinyPileBlock extends Block {
 
-    private static final VoxelShape SHAPE = Block.createCuboidShape(5.0, 0.0, 5.0, 7.0, 7.0, 5.0);
+    private static final VoxelShape SHAPE = Block.createCuboidShape(5.0, 0.0, 5.0, 11.0, 3.0, 12.0);
 
     public TinyPileBlock(Settings settings) {
         super(settings);
