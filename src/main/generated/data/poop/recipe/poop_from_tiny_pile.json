@@ -1,0 +1,13 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    {
+      "item": "poop:tiny_pile"
+    }
+  ],
+  "result": {
+    "count": 1,
+    "id": "poop:poop"
+  }
+}

@@ -18,8 +18,8 @@ public class ModBlocks {
 
     public static final Block POOP_BLOCK = registerBlock("poop_block", new Block(AbstractBlock.Settings.create().strength(1f)
             .requiresTool().sounds(BlockSoundGroup.MUD)));
-    public static final Block PILE = registerBlock("pile", new PileBlock(AbstractBlock.Settings.create().nonOpaque()));
-    public static final Block TINY_PILE = registerBlock("tiny_pile", new TinyPileBlock(AbstractBlock.Settings.create().nonOpaque()));
+    public static final Block PILE = registerBlock("pile", new PileBlock(AbstractBlock.Settings.create().requiresTool().nonOpaque()));
+    public static final Block TINY_PILE = registerBlock("tiny_pile", new TinyPileBlock(AbstractBlock.Settings.create().requiresTool().nonOpaque()));
 
     private static Block registerBlock(String name, Block block) {
         registerBlockItem(name, block);

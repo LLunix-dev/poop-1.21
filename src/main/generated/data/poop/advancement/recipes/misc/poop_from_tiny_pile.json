@@ -1,0 +1,32 @@
+{
+  "parent": "minecraft:recipes/root",
+  "criteria": {
+    "has_the_recipe": {
+      "conditions": {
+        "recipe": "poop:poop_from_tiny_pile"
+      },
+      "trigger": "minecraft:recipe_unlocked"
+    },
+    "has_tiny_pile": {
+      "conditions": {
+        "items": [
+          {
+            "items": "poop:tiny_pile"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    }
+  },
+  "requirements": [
+    [
+      "has_the_recipe",
+      "has_tiny_pile"
+    ]
+  ],
+  "rewards": {
+    "recipes": [
+      "poop:poop_from_tiny_pile"
+    ]
+  }
+}

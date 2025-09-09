@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "R": {
+      "item": "poop:poop"
+    }
+  },
+  "pattern": [
+    " R ",
+    "RRR"
+  ],
+  "result": {
+    "count": 1,
+    "id": "poop:pile"
+  }
+}

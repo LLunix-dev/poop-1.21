@@ -1,0 +1,11 @@
+// 1.21	2025-09-09T18:22:00.094488304	poop/Model Definitions
+e7fa5df5965728137094ce74cf5dd6b2f8c1b506 assets/poop/models/item/poop.json
+64d6f0921cb2a6bc8e8839df58c267cad6f9e7a2 assets/poop/models/item/tiny_pile.json
+0b8dc4ccd2042458e0401aee53b4c65b9741836a assets/poop/models/block/tiny_pile.json
+4451e5db70dd20e0b6fefd4e21d7e2370b9ece8e assets/poop/models/item/pile.json
+e2c3c79b667ee955c295af757adb5ed6e4d4652e assets/poop/models/block/pile.json
+8bf4d7198b1cae905b3da45a52cf5377dac710df assets/poop/blockstates/pile.json
+891380e2444911f59a9e202625759e9ad6d4291b assets/poop/blockstates/poop_block.json
+58e3bbaa91007be5c60e55fdbfd9a19ed3a0b57d assets/poop/models/item/poop_block.json
+893e27a61e2f629a88fde0bbcf8557978133e0bf assets/poop/models/block/poop_block.json
+de51a2f15fb9e6948fa3d213a951a066328e1aa4 assets/poop/blockstates/tiny_pile.json

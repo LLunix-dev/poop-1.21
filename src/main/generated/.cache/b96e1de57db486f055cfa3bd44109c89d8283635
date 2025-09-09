@@ -1,0 +1,13 @@
+// 1.21	2025-09-09T18:22:00.094810841	poop/Recipes
+7302ef59023eccbc2ae1edb682ff5f5fba7bfbbe data/poop/recipe/poop.json
+957c4e248292309bf7d218d0b7026562e0610509 data/poop/advancement/recipes/building_blocks/poop.json
+972fba64df5a163e34d7912c5f95cd7a5cb662a7 data/poop/advancement/recipes/misc/tiny_pile.json
+e73f71db3165d4bc6021c8292a2c834f14a9aa52 data/poop/advancement/recipes/misc/pile.json
+5af7dc4c0443c77d75fbd240d88ac24798457d81 data/poop/recipe/tiny_pile.json
+0797e8ab93ee8555690db76082a1ee018ffe4dc0 data/poop/recipe/poop_block.json
+828e9170bf69b68ca19473a7fd90e0d6a6b0a443 data/poop/advancement/recipes/food/poop_block.json
+66faf45efa5fc16e624612d0b032daa976660cb6 data/poop/recipe/pile.json
+ab1b8b9634914976ef6a6b80a5fe802bb343908c data/poop/advancement/recipes/misc/poop_from_tiny_pile.json
+f30efeed6ab75744a2219391d363c3ff4ebd3d69 data/poop/recipe/poop_from_pile.json
+7f50d386838973687f7389ab4a5590f0206406fc data/poop/recipe/poop_from_tiny_pile.json
+057f135e9d387c53cd6ccb657768e9c4f6f61ab8 data/poop/advancement/recipes/misc/poop_from_pile.json
